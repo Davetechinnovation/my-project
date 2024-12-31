@@ -151,25 +151,31 @@ const Navbar = () => {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About Us</Link></li>
               <li><Link to="/contact">Contact Us</Link></li>
+              
              
               <li  className='dan' onMouseEnter={() => setDropdownVisible(true)} onMouseLeave={() => setDropdownVisible(false)} 
                    
                 >
-                  <li><Scroll to="reciepe" spy={true} smooth={true} offset={-35} duration={800}>Reciepes</Scroll></li>
+                  <li><Scroll to="recepe" spy={true} smooth={true} offset={-35} duration={800}>Reciepes</Scroll></li>
                     {isDropdownVisible && (
                    
                      
                         <div className="dropdown-menu" >
-
-                           <div className="dro">
+                          <div className="dron">
+                          <div className="dro">
                           
-                            {routes.map((route) => (
-                              <li key={route.name}>
-                                <Link to={route.path}>{route.name}</Link>
-                              </li>
-                            ))}
-                            
+                          {routes.map((route) => (
+                            <ul>
+                               <li key={route.name}>
+                              <Link to={route.path}>{route.name}</Link>
+                            </li>
+                            </ul>
+                           
+                          ))}
+                          
+                        </div>
                           </div>
+                           
                             
                         </div>
                    
@@ -200,7 +206,7 @@ const Navbar = () => {
                     onMouseEnter={() => setDropdownVisible(true)} 
                     onMouseLeave={() => setDropdownVisible(false)}
                 >
-                    <Scroll to="reciepe" spy={true} smooth={true} offset={-35} duration={800}><h4>Reciepes</h4></Scroll>
+                   <Scroll to="recepe/" spy={true} smooth={true} offset={-35} duration={800}><h4>Reciepes</h4></Scroll>
                     {isDropdownVisible && (
                         <div className="dropdow-menu">
                            <div className="drop">

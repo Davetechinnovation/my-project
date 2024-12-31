@@ -59,11 +59,14 @@
    transition: 0.3s ease-in-out !important;
 }
 
+
+
 .dro{
     position: fixed;
-    margin-left: -200px;
+   left: 42%;
+   right: 50%;
+    width: 50%;
     padding: 20px;
-    width: 30%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -85,6 +88,10 @@
     padding: 0 15px;
     font-size: 24px;
     padding-bottom: 10px;
+}
+
+.dave{
+    height: 100vh;
 }
 
 .dropdow-menu{
@@ -250,3 +257,24 @@
         transform: rotate(-45deg) translate(5px, -5px); 
     }
 }
+
+
+@media (max-width: 750px) and (min-width: 626px) {
+    .dro{
+        position: fixed;
+        left: 1%;
+        right: 50%;
+        width: 92%;
+    }
+}
+
+@media (max-width: 930px) and (min-width: 751px) {
+    .dro{
+        position: fixed;
+        left: 1%;
+        right: 50%;
+        width: 92%;
+        
+    }
+}
+

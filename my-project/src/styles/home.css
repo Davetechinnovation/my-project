@@ -576,7 +576,7 @@
 } 
 
 .images img{
-    width: 550px;
+    width: 530px;
 }
 
 .images .overlay-text {
@@ -612,7 +612,7 @@
 } 
 
 .images img{
-    width: 650px;
+    width: 630px;
 }
 
 .images .overlay-text {
@@ -643,7 +643,7 @@
 
 @media (min-width: 751px) and (max-width: 850px) {
 .images img{
-    width: 750px;
+    width: 730px;
 }
 
 .images .overlay-text {
@@ -820,3 +820,5 @@
         } 
       
 
+       
+  
