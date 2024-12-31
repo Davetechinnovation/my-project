@@ -18,7 +18,7 @@ function Footer() {
     updateYear();
 
     // Optional: Set an interval to check for year change (if needed)
-    const intervalId = setInterval(updateYear, 1000 * 60 * 60 * 24);
+    const intervalId = setInterval(updateYear, 1000 * 60);
 
     // Clean up interval on component unmount
     return () => clearInterval(intervalId);
