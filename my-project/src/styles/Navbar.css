@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.nav-container{
+    overflow: hidden;
+}
+
+.nav, .hamburgericon{
+    display: none;
+}
+
+.navbars ul{
+    display: flex;
+    gap: 20px;
+}
+
+.navbars li{
+   list-style: none;
+ 
+  cursor: pointer;
+
+}
+
+.navbars ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+   
+}
+
+.navbars ul li a:hover{
+    color: green;
+    transition: color 0.4s ease;
+    text-decoration: underline green;
+}
+
+
+.nav-content p{
+    text-align: center;
+    padding: 15px;
+}
+
+
+.dan{
+    font-size: 5px !important;
+    position: relative;
+}
+
+.dan li a:hover{
+   transition: 0.3s ease-in-out !important;
+}
+
+.dro{
+    position: fixed;
+    margin-left: -200px;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 15px;
+    font-style: italic;
+    border: 2px solid green ; 
+    z-index: 1000;
+    border-radius: 10px;
+    background-color: white !important; 
+}
+
+
+.dan li{
+    font-size: 16.6px;
+  
+}
+
+.dave h4{
+    padding: 0 15px;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.dropdow-menu{
+    color: black !important;
+    background-color: rgba(31, 139, 31, 0.849) !important;
+   padding-right: 200px;
+    width: 100%;
+    margin: 0 -10px;
+    padding: 10px 0;
+    font-size: 20px !important;
+    font-style: italic;
+    line-height: 2;
+}
+
+.drop{
+    padding: 0 35px;
+    overflow-Y: scroll;
+    height: 55vh;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 625px) {
+  .navbars{
+    display: none;
+  }
+
+    .header-image{
+        display: block;
+    }
+
+   .logo{
+    padding: 0 30px;
+   }
+
+    
+    .nav ul{
+        display: none;
+    }
+
+    .nav ul.show{
+        display: block;
+    }
+
+    .nav, .hamburgericon{
+        display: flex;
+    }
+
+    .all-nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .nav li{
+        list-style: none;
+       
+    }
+
+    .nav li:hover{
+        background-color: black;
+        border-left: 4px solid white;
+        padding-left: 10px;
+        transition: 0.5s ease;
+       
+    }
+
+    .nav  a{
+        text-decoration: none;
+       
+        color: white;
+    }
+
+    ul h3{
+        padding: 10px 15px;
+        line-height: 2;
+        font-size: 23px;
+    }
+
+    .nav ul{
+        background-color: rgba(0, 128, 0, 0.897);
+        height: 100vh;
+        position: fixed; 
+        top: 0; 
+        left: 0;
+        width: 50%;
+        z-index: 1000;
+        cursor: pointer;
+        border-right: 6px solid white;
+    }
+
+    
+
+    .hamburgericon {
+        transform: translateY(-40px);
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 28px; 
+        height: 19px; 
+        gap: 5px; 
+    }
+
+    
+    
+    .hamburgericon .line {
+        height: 3px; 
+        background-color: black; 
+        transition: all 0.4s ease; 
+    }
+
+    
+    .hamburgericon.open .line:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px); 
+        background-color: green; 
+    }
+    
+    .hamburgericon.open .line:nth-child(2) {
+        opacity: 0; 
+    }
+    
+    .hamburgericon.open .line:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px); 
+        background-color: green; 
+    }
+
+
+    .hamburgerico{
+        margin-left: auto;
+        padding: 40px 10px;
+        font-size: 30px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 40px; 
+        height: 17px; 
+        gap: 5px;
+        color: white;
+    }
+
+    .hamburgerico .line {
+        height: 3px; 
+        background-color: white; 
+        transition: all 0.4s ease; 
+    }
+
+    .hamburgerico.open .line:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px); 
+    }
+    
+    .hamburgerico.open .line:nth-child(2) {
+        opacity: 0; 
+    }
+    
+    .hamburgerico.open .line:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px); 
+    }
+}

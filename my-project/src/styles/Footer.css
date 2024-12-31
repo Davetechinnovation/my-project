@@ -1,0 +1,26 @@
+.all{
+    text-align: center;
+    padding: 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.all strong {
+    margin: auto ;
+    color: green;
+    font-style: italic;
+   
+   
+}
+
+.all p{
+    margin: auto 0;
+    
+}
+
+.all img{
+   
+}
