@@ -48,7 +48,7 @@ const Navbar = () => {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
   const routes = [
     { path: "/friedrice", name: "Fried Rice", component: Friedrice },
-    { path: "/cocktail", name: "Chicken", component: Cocktail },
+    { path: "/cocktail", name: "Cocktail", component: Cocktail },
     { path: "/poutine", name: "Poutine", component: Poutine },
     { path: "/porkolt", name: "porkolt", component: Porkolt },
     { path: "/Hainan", name: "Hainan", component: Hainan },
