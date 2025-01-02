@@ -463,41 +463,6 @@ const Home = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
        <div id='Local-meals' class="Local-meals">
           <div class="local-meal-content">
             <h1>Local Dishes</h1>
@@ -723,7 +688,7 @@ const Home = () => {
             <div className="c-im"><img src={img31} alt="" /></div>
             <div className="c-text">
               <strong>  Gambia <br /> <br /></strong>
-              <Link to = '/cocktail'><b> Groundnut Stew  </b> <br /> <br /></Link> 
+              <Link to = '/groundnut'><b> Groundnut Stew  </b> <br /> <br /></Link> 
               <p><i className="bi bi-star-fill" style={{ color: "#ff0" }}></i>
               <i className="bi bi-star-fill" style={{ color: "#ff0" }}></i>
               <i className="bi bi-star-fill" style={{ color: "#ff0" }}></i>
