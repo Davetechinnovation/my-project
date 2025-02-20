@@ -33,6 +33,7 @@ import Kenkey from './pages/kenkey';
 import Maafe from './pages/maafe';
 import Okra from './pages/okra';
 import Chak from './pages/chak';
+import Malva from './pages/malva';
 import Yam from './pages/yam';
 import Spaghetti from './pages/spaghetti';
 import Groundnut from './pages/groundnut';
@@ -78,6 +79,7 @@ return (
           <Route path = "/maafe" element = {<Maafe />} />
           <Route path = "/okra" element = {<Okra />} />
           <Route path = "/chak" element = {<Chak />} />
+          <Route path = "/malva" element = {<Malva />} />
           <Route path = "/yam" element = {<Yam />} />
           <Route path = "/spaghetti" element = {<Spaghetti/>} />
           <Route path = "/groundnut" element = {<Groundnut/>} />

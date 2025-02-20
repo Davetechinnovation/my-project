@@ -293,7 +293,7 @@
 }
 
 .c-text a {
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
   font-weight: bold;
   font-size: 18px;

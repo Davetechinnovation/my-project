@@ -8,7 +8,7 @@ const pad = () => {
          <div className="heade-image">
              <img src= {img} alt="friedrice" />
              <div className="fried-text">
-                <p>Fried-Rice Reciepe</p>
+                <p>Pad Thai</p>
              </div>
          </div>
    
@@ -18,8 +18,8 @@ const pad = () => {
    
          <div className="friedrice-content">
            <div className="head">
-           <h2>Chicken Fried Rice Reciepe</h2>
-           <b>The best fried rice you will taste!</b>
+           <h2>Pad Thai Reciepe</h2>
+           <b>The best Pad Thai you will taste!</b>
            </div>
            
    

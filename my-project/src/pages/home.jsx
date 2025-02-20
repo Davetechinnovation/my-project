@@ -646,7 +646,7 @@ const Home = () => {
             <div className="c-im"><img src={img28} alt="" /></div>
             <div className="c-text">
               <strong> North Africa <br /> <br /></strong>
-              <Link to = '/buta'><b>Malva Pudding </b> <br /> <br /></Link> 
+              <Link to = '/malva'><b>Malva Pudding </b> <br /> <br /></Link> 
               <p><i className="bi bi-star-fill" style={{ color: "#ff0" }}></i>
               <i className="bi bi-star-fill" style={{ color: "#ff0" }}></i>
               <i className="bi bi-star-fill" style={{ color: "#ff0" }}></i>

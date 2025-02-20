@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f661655.css",
-    "main.js": "/static/js/main.71faaacc.js",
+    "main.css": "/static/css/main.2787f799.css",
+    "main.js": "/static/js/main.f305a6df.js",
     "static/js/453.e94179c6.chunk.js": "/static/js/453.e94179c6.chunk.js",
     "static/media/pizza.jpg": "/static/media/pizza.e27b5f5c65846156c03b.jpg",
     "static/media/a.jpg": "/static/media/a.55265e0b1e029b1049d3.jpg",
@@ -92,7 +92,9 @@
     "static/media/bobotie1.jpg": "/static/media/bobotie1.68fc50ea0c81424f65a8.jpg",
     "static/media/chicken tikka1.jpg": "/static/media/chicken tikka1.9a25b66fc3c999d38032.jpg",
     "static/media/jollof1.jpg": "/static/media/jollof1.2352d33af34998df3b2d.jpg",
+    "static/media/malva2.jpg": "/static/media/malva2.2adc45c4e9a47678b603.jpg",
     "static/media/chicken fajitas2.jpg": "/static/media/chicken fajitas2.a3d314a40b6167f0c408.jpg",
+    "static/media/malva1.jpg": "/static/media/malva1.f45481403f1b9d0c4f20.jpg",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/egusi2.jpeg": "/static/media/egusi2.6f754c8d827723d2b1f2.jpeg",
     "static/media/okra.jpeg": "/static/media/okra.43618d2b08d4afc59c03.jpeg",
@@ -102,12 +104,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.9f661655.css.map": "/static/css/main.9f661655.css.map",
-    "main.71faaacc.js.map": "/static/js/main.71faaacc.js.map",
+    "main.2787f799.css.map": "/static/css/main.2787f799.css.map",
+    "main.f305a6df.js.map": "/static/js/main.f305a6df.js.map",
     "453.e94179c6.chunk.js.map": "/static/js/453.e94179c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f661655.css",
-    "static/js/main.71faaacc.js"
+    "static/css/main.2787f799.css",
+    "static/js/main.f305a6df.js"
   ]
 }
